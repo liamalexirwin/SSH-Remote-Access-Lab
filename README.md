@@ -64,7 +64,7 @@ ping 192.168.56.104
 ```
 4 successful replies confirmed the VMs could communicate before attempting SSH.
 
-![Ping test](Screenshots/ping-test.png)
+![Ping test](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/Ping%20Test.png)
 
 ### 6. Verify the SSH Client (Windows)
 Typed `ssh` in PowerShell. The usage options appeared, confirming the client is built into Windows 10.
@@ -75,7 +75,7 @@ ssh liam@192.168.56.104
 ```
 On the first connection SSH displays the host fingerprint. Accepting it saves the Ubuntu machine to the Windows known_hosts file. After entering the Ubuntu password the session opened on the Ubuntu command line.
 
-![SSH connection](Screenshots/ssh-connection.png)
+![SSH connection](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/SSH%20Connection.png)
 
 ### 8. Run Remote Commands
 ```bash
@@ -87,7 +87,7 @@ ls -la
 ```
 Every command ran on Ubuntu while typed from the Windows VM.
 
-![Remote commands](Screenshots/remote-commands.png)
+![Remote commands](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/Remote%20Commands.png)
 
 Closed the session with `exit`. The SSH server keeps running, so reconnecting only needs the same ssh command.
 
@@ -99,7 +99,7 @@ Closed the session with `exit`. The SSH server keeps running, so reconnecting on
 | **Cause** | The Host-Only Adapter blocks internet access, so apt could not download the package |
 | **Solution** | Temporarily switched the Ubuntu VM to NAT, installed the package, then switched back to Host-Only |
 
-![apt install error](Screenshots/openssh-install-error.png)
+![apt install error](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/apt%20Install%20Error.png)
 
 ## Commands Reference
 ```bash
