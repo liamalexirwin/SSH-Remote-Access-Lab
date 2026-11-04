@@ -1,4 +1,5 @@
 SSH Lab - Configuration Notes
+
 Network Configuration
 Item	Value
 Network Type	Host-Only Adapter (both VMs)
