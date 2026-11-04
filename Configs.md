@@ -51,7 +51,7 @@ Verify it is available by typing `ssh` in PowerShell. A list of usage options me
 ssh liam@192.168.56.104
 ```
 - First connection shows the host fingerprint. Typed `yes` to accept
-- Fingerprint is stored in C:\Users\liam\.ssh\known_hosts
+- Fingerprint is stored in C:\Users\liam\.ssh.known_hosts
 - On a real network, verify the fingerprint before accepting (protects against man-in-the-middle attacks)
 
 ## Remote Commands Tested (running on Ubuntu, typed from Windows)
