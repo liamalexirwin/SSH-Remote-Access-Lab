@@ -39,7 +39,7 @@ sudo ufw status
 | sudo systemctl start ssh | Starts the SSH service right now |
 | sudo systemctl enable ssh | Makes SSH start automatically on every boot |
 | sudo systemctl status ssh | Checks the service is running (look for active (running)) |
-| sudo ufw status | Checks Ubuntu's built-in firewall. If inactive, nothing is blocking port 22. If active, run sudo ufw allow ssh |
+| sudo ufw status | Checks Ubuntu's built-in firewall. If inactive, nothing is blocking port 22. If active, run sudo ufw allow ssh | My built-in firewall was set to 'inactive' when I ran sudo ufw status 
 
 ## Windows SSH Client Setup
 Windows 10 has an SSH client built in, so no installation is needed.
