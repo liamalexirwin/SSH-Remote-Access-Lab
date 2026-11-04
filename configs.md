@@ -39,7 +39,10 @@ sudo ufw status
 | sudo systemctl start ssh | Starts the SSH service right now |
 | sudo systemctl enable ssh | Makes SSH start automatically on every boot |
 | sudo systemctl status ssh | Checks the service is running (look for active (running)) |
-| sudo ufw status | Checks Ubuntu's built-in firewall. If inactive, nothing is blocking port 22. If active, run sudo ufw allow ssh, my built-in firewall was set to 'inactive' when I ran sudo ufw status  | 
+| sudo ufw status | Checks Ubuntu's built-in firewall. If inactive, nothing is blocking port 22. If active, run sudo ufw allow ssh |
+### Firewall Check Result
+sudo ufw status returned: Status: inactive
+Meaning: the firewall was not filtering traffic, so port 22 was not blocked and SSH connections could get through. No ufw rule was needed.
 
 
 ## Windows SSH Client Setup
