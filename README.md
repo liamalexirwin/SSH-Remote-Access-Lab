@@ -56,7 +56,7 @@ sudo ufw status
 ```
 Checked Ubuntu's built-in firewall to make sure port 22 was not being blocked.
 
-![Firewall status](Screenshots/firewall-status.png)
+![Firewall status](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/Firewall%20Status.png)
 
 ### 5. Test Connectivity (Windows VM)
 ```
