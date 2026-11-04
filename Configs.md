@@ -1,12 +1,14 @@
 SSH Lab - Configuration Notes
 
 Network Configuration
+
 Item	Value
 Network Type	Host-Only Adapter (both VMs)
 Ubuntu VM (SSH server)	192.168.56.104
 Windows 10 VM (SSH client)	192.168.56.101
 Network Interface (Ubuntu)	enp0s3
 SSH Port	22
+
 Purpose of Host-Only: lets the VMs communicate with each other while staying isolated from the internet. Both VMs must be on the same adapter type.
 
 Finding IP Addresses
