@@ -51,7 +51,7 @@ Verify it is available by typing `ssh` in PowerShell. A list of usage options me
 ssh liam@192.168.56.104
 ```
 - First connection shows the host fingerprint. Typed `yes` to accept
-- Fingerprint is stored in C:\Users\liam\.ssh.known_hosts
+- Fingerprint is stored in C:\Users\liam\.ssh\known_hosts
 - On a real network, verify the fingerprint before accepting (protects against man-in-the-middle attacks)
 
 ## Remote Commands Tested (running on Ubuntu, typed from Windows)
@@ -74,4 +74,3 @@ exit
 | Problem | Could not install openssh-server. apt returned "Temporary failure resolving" errors |
 | Cause | Host-Only Adapter blocks internet access, which is needed to download packages |
 | Fix | Temporarily switched the Ubuntu VM to NAT, installed openssh-server, then switched back to Host-Only for the lab |
-
