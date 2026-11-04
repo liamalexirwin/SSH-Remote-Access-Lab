@@ -32,7 +32,7 @@ Found the Ubuntu IP address:
 ```bash
 ip addr
 ```
-![Ubuntu IP address](Screenshots/ubuntu-ip-addr.png)
+![Ubuntu IP address](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/Ubuntu%20IP%20Address.png)
 
 ### 2. Install the SSH Server (Ubuntu)
 ```bash
