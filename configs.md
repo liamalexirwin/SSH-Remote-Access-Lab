@@ -41,8 +41,8 @@ sudo ufw status
 | sudo systemctl status ssh | Checks the service is running (look for active (running)) |
 | sudo ufw status | Checks Ubuntu's built-in firewall. If inactive, nothing is blocking port 22. If active, run sudo ufw allow ssh |
 ### Firewall Check Result
-sudo ufw status returned: Status: inactive
-Meaning: the firewall was not filtering traffic, so port 22 was not blocked and SSH connections could get through. No ufw rule was needed.
+- sudo ufw status returned: **Status: inactive**
+- Meaning: the firewall was not filtering traffic, so port 22 was not blocked and SSH could connect. No ufw rule was needed.
 
 
 ## Windows SSH Client Setup
@@ -55,7 +55,7 @@ Verify it is available by typing `ssh` in PowerShell. A list of usage options me
 ssh liam@192.168.56.104
 ```
 - First connection shows the host fingerprint. Typed `yes` to accept
-- Fingerprint is stored in C:\Users\liam\.ssh\known_hosts "there should be a \ between liam and .ssh but its not showing up"
+- Fingerprint is stored in C:\Users\liam\\.ssh\known_hosts 
 - On a real network, verify the fingerprint before accepting (protects against man-in-the-middle attacks)
 
 ## Remote Commands Tested (running on Ubuntu, typed from Windows)
