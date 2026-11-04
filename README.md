@@ -48,7 +48,7 @@ sudo systemctl status ssh
 ```
 The status output showed **active (running)**, confirming the service was up.
 
-![SSH service status](Screenshots/ssh-service-status.png)
+![SSH service status](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/SSH%20Service%20Status.png)
 
 ### 4. Check the Firewall
 ```bash
