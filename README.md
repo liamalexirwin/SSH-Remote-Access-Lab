@@ -54,10 +54,8 @@ The status output showed **active (running)**, confirming the service was up.
 ```bash
 sudo ufw status
 ```
-Checked Ubuntu's built-in firewall to make sure port 22 was not being blocked.
-The firewall status was **inactive**, so port 22 was not blocked and no rule was needed.
-On a production server the firewall would normally be active, with a rule allowing SSH:
-sudo ufw allow ssh
+The firewall status was **inactive**, so port 22 was not blocked and no rule was needed. On a production server the firewall would normally be active, with a rule allowing SSH (`sudo ufw allow ssh`).
+
 
 ![Firewall status](https://github.com/liamalexirwin/SSH-Remote-Access-Lab/blob/main/Screenshots/Firewall%20Status.png)
 
